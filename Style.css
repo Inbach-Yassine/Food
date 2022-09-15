@@ -268,6 +268,16 @@ header .menu{
     .container-avatars .Happy-Customers .icone {
         padding-top: 5%;
     }
+    .Our-Featured-Food {
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+    .Our-Featured-Food h1 {
+        font-size: 2rem;
+    }
+    .Our-Featured-Food h4 {
+        padding-top: 1rem;
+    }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
     .Delivery-Partner {
@@ -293,5 +303,8 @@ header .menu{
     }
     .container-avatars {
         padding: 0 0 4rem 0;
+    }
+    .Our-Featured-Food h1 {
+        font-size: 2.2rem;
     }
 }
