@@ -173,6 +173,60 @@ header .menu{
     padding-left: 5px;
     font-size: 15px;
 }
+.Image-Food{
+    margin: 2rem 1rem;
+}
+.Image-Food .Position .Food{
+    position: relative;
+}
+.Image-Food .Position{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.Image-Food .Position .Food img{
+    width: 395px;
+    height: 400px;
+    border-radius: 1rem;
+}
+.Image-Food .Position .Food .fa-cart-plus{
+    position: absolute;
+    top: 1.4rem;
+    left: 21rem;
+    color: var(--white);
+    font-size: 1.6rem;
+    border: 2px solid var(--white);
+    padding: 2%;
+    border-radius: 1rem;
+    background: var(--black);
+}
+.Image-Food .Position .Food .content-box{
+    position: absolute;
+    top:18rem;
+    left: 0;right: 0;bottom: 0;
+    max-width: 440px;
+    padding:0 3rem;
+}
+.Image-Food .Position .Food .content-box .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Image-Food .Position .Food .content-box .box h3{
+    font-size: 21px;
+    font-weight: 500;    
+} 
+.Image-Food .Position .Food .content-box p{
+    padding-top: 8px;
+    font-size: 15px;
+    color: #666;
+}
+.Image-Food .Position .Food .content-box .fa-star{
+    margin-top: 9px;
+    color: rgb(250, 127, 4);
+    padding: 0 2px;
+}
 @media only screen and (max-width:557px){
     .Delivery-Partner .image img{
         width: 490px;
