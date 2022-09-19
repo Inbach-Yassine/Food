@@ -303,6 +303,30 @@ header .menu{
         }
     }
 }
+@media only screen and (max-width:846px){
+    .Image-Food .Position .Food img {
+        width: 374px;
+        height: 374px;
+    }
+    .Image-Food .Position .Food .fa-cart-plus {
+        left: 20rem;
+    }
+    .Image-Food .Position .Food .content-box {
+        margin-top: -2rem;
+    }
+    @media only screen and (max-width:805px){
+        .Image-Food .Position .Food img {
+            width: 337px;
+            height: 340px;
+        }
+        .Image-Food .Position .Food .fa-cart-plus {
+            left: 17rem;
+        }
+        .Image-Food .Position .Food .content-box {
+            margin-top: -5.5rem;
+        }
+    }
+}
 @media only screen and (max-width:600px){
     header{
         padding:12px 2rem;
@@ -415,5 +439,8 @@ header .menu{
     }
     .Our-Featured-Food h1 {
         font-size: 2.2rem;
+    }
+    .Image-Food .Position {
+        justify-content: center;
     }
 }
