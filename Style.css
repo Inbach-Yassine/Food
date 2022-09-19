@@ -244,12 +244,59 @@ header .menu{
         .Delivery-Partner .image img{
             width: 390px;
         }
+        .Image-Food .Position .Food img {
+            width: 373px;
+            height: 373px;
+        }
+        .Image-Food .Position .Food .fa-cart-plus {
+            top: 1.2rem;
+            left: 19.5rem;
+        }
+        .Image-Food .Position .Food .content-box .box h3 {
+            font-size: 20px;
+        }
+        .Image-Food .Position .Food .content-box p {
+            font-size: 14px;
+        }
+        .Image-Food .Position .Food .content-box .fa-star {
+            margin-top: 8px;
+        }
+        .Image-Food .Position .Food .content-box {
+            top: 19rem;
+            margin-top: -3rem;
+        }
     }
     @media only screen and (max-width:409px){
         .Delivery-Partner .image img{
             width: 330px;
         }
+        .Image-Food .Position .Food img {
+            width: 353px;
+            height: 353px;
+        }
+        .Image-Food .Position .Food .fa-cart-plus {
+            top: 1.2rem;
+            left: 18.5rem;
+        }
+        .Image-Food .Position .Food .content-box {
+            top: 19rem;
+            margin-top: -4.2rem;
+        }
     } 
+    @media only screen and (max-width:382px){
+        .Image-Food .Position .Food img {
+            width: 310px;
+            height: 310px;
+        }
+        .Image-Food .Position .Food .fa-cart-plus {
+            top: 1.2rem;
+            left: 15.5rem;
+        }
+        .Image-Food .Position .Food .content-box {
+            top: 16rem;
+            margin-top: -5rem;
+        }
+    }
     @media only screen and (max-width:342px){
         .Delivery-Partner .image img{
             width: 280px;
@@ -335,6 +382,10 @@ header .menu{
     }
     .Our-Featured-Food h4 {
         padding-top: 1rem;
+    }
+    .Image-Food .Position {
+        justify-content: center;
+        row-gap: 27px;
     }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
