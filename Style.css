@@ -231,6 +231,10 @@ header .menu{
     color: rgb(250, 127, 4);
     padding: 0 2px;
 }
+.bttn{
+    text-align: center;
+    padding-top: 1.7rem;
+}
 @media only screen and (max-width:557px){
     .Delivery-Partner .image img{
         width: 490px;
@@ -411,6 +415,9 @@ header .menu{
         justify-content: center;
         row-gap: 27px;
     }
+    .bttn{
+        padding-top: 1rem;
+    }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
     .Delivery-Partner {
@@ -442,5 +449,8 @@ header .menu{
     }
     .Image-Food .Position {
         justify-content: center;
+    }
+    .bttn{
+        padding-top: 1rem;
     }
 }
