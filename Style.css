@@ -37,6 +37,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 7rem;
 }
 .heading{
     color: var(--red);
@@ -268,7 +269,7 @@ header .menu{
 .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .DELIVERY .btn{
     padding-top: 1.5rem;
 }
-.FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .image-1{
+.FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .image{
     padding-left: 7.4rem;
 }
 .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .box{
@@ -286,6 +287,12 @@ header .menu{
 }
 .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .image-1{
     padding-right: 7.5rem;
+}
+.FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST img:nth-child(1){
+    margin-left: 7.5rem;
+}
+.FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST img:nth-child(2){
+    margin-right: 7.5rem;
 }
 @media only screen and (max-width:557px){
     .Delivery-Partner .image img{
@@ -481,13 +488,13 @@ header .menu{
     }
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST {
         flex-direction: column;
+        padding-top: 3rem;
     }
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .DELIVERY {
         max-width: 500px;
         text-align: center;
         padding-top: 4rem;
     }
-
     .heading {
         font-size: 1.2rem;
     }
@@ -501,19 +508,19 @@ header .menu{
         padding-top: 1rem;
     }
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .box {
-        max-width: 550px;
+        max-width: 500px;
         text-align: center;
-        padding-top: 6rem;
     }
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .box p {
         font-size: 14px;
         padding-top: 1rem;
     }
-    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .image-1 {
-        padding-top: 1.5rem;
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST img:nth-child(1) {
+        margin-left: 0rem;
     }
-    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .image-1:nth-child(1){
-        padding-top: 4rem;
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST img:nth-child(2) {
+        margin-right: 0rem;
+        margin-top: 2rem;
     }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
