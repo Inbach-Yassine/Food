@@ -557,4 +557,25 @@ header .menu{
     .bttn{
         padding-top: 1rem;
     }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST {
+        padding-top: 5rem;
+        flex-direction: column;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .DELIVERY{
+        max-width: 900px;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .box{
+        max-width: 900px;
+        text-align: center;
+        padding-top: 0rem;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST img:nth-child(2) {
+        margin-right: 0;
+        padding-top: 2rem;
+    }
+    .heading-2 {
+        line-height: 3.8rem;
+    }
 }
