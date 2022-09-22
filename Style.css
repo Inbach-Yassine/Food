@@ -326,6 +326,9 @@ header .menu{
 .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input::placeholder{
     color: var(--black);
 }
+.FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn{
+    padding-left: 1rem;
+}
 @media only screen and (max-width:557px){
     .Delivery-Partner .image img{
         width: 490px;
@@ -336,6 +339,14 @@ header .menu{
         }
         img{
             width:350px;
+        }
+        .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input, .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button {
+            max-width: 27rem;
+        }
+    }
+    @media only screen and (max-width:460px) {
+        .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input, .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button {
+            max-width: 22rem;
         }
     }
     @media only screen and (max-width:453px){
@@ -396,6 +407,11 @@ header .menu{
         }
         img{
             width: 300px;
+        }
+    }
+    @media  only screen and (max-width:360px) {
+        .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input, .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button {
+            max-width: 18rem;
         }
     }
     @media only screen and (max-width:342px){
@@ -566,8 +582,16 @@ header .menu{
         padding-top: 1.2rem;
         display: inline-block;
     }
-    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input{
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input,
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button{
         width: 30rem;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn {
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    button{
+        padding: 3% 1.7rem;
     }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
@@ -624,5 +648,23 @@ header .menu{
     }
     .heading-2 {
         line-height: 3.8rem;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .content {
+        max-width: 870px;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 1.3rem;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST .content form {
+        justify-content: center;
+    }
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input {
+        width: 55%;
+        padding: 1% 0 1% 2rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .Image-Food .Position {
+        justify-content: center;
     }
 }
