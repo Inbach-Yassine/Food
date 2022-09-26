@@ -69,6 +69,9 @@ button a{
     color: var(--black);
     letter-spacing: 0.06em;
 }
+.logo img{
+    width: 45px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -77,9 +80,6 @@ header{
     top: 0;left: 0;
     padding: 1rem 1rem;
     z-index: 1000;
-}
-header .logo img{
-    width: 45px;
 }
 header .nav-bar a{
     font-size: 17px;
@@ -328,6 +328,55 @@ header .menu{
 }
 .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn{
     padding-left: 1rem;
+}
+footer{
+    padding:0 1rem;
+}
+footer .logo{
+    padding-top: 6rem;
+}
+footer .container-box{
+    padding: 1rem 3rem 0 0;
+}
+footer .container-box .box{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container-box .box .content p{
+    max-width: 300px;
+    padding-top: 1.5rem;
+    color: #666;
+    font-size: 16px;
+    line-height: 23px;
+}
+footer .container-box .box .content-box h4{
+    color: var(--black);
+    font-size: 1.2rem;
+    letter-spacing: 0.10em;
+}
+footer .container-box .box .content-box ul{
+    padding-top: 1rem;
+}
+footer .container-box .content-box ul li{
+    list-style: none;
+    margin-left: 5%;
+    display:flex;
+    padding: 6px 0;
+}
+footer .container-box .content-box ul li a,p{
+    font-size: 1rem;
+    color: var(--black);
+}
+footer .container-box .content-box ul li i{
+    color: #666;
+    font-size: 1.1rem;
+    letter-spacing: 0.30em;
+}
+footer .All-Rights-Reserved,
+footer .All-Rights-Reserved p{
+    padding: 2rem 0;
+    color: var(--black);
+    font-size: 1.2rem;
 }
 @media only screen and (max-width:557px){
     .Delivery-Partner .image img{
@@ -582,9 +631,11 @@ header .menu{
         padding-top: 1.2rem;
         display: inline-block;
     }
-    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input,
-    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button{
-        width: 30rem;
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form input,
+    .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn button
+    {
+      width: 30rem;
+      padding: 1rem 0;
     }
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST form .btn {
         padding-left: 0;
@@ -592,6 +643,38 @@ header .menu{
     }
     button{
         padding: 3% 1.7rem;
+    }
+    footer .logo {
+        padding-top: 4rem;
+        text-align: center;
+    }
+    .logo img {
+        width: 54px;
+    }
+    footer .container-box {
+        padding: 4rem 0 0 0;
+    }
+    footer .container-box .box {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .container-box .box .content p {
+            max-width: 100%;
+            padding-top: 1rem;
+            font-size: 14px;      
+    }
+    footer .container-box .box .content-box h4 {
+        font-size: 1rem;
+        padding-top: 1.3rem;
+    }
+    footer .container-box .content-box ul li {
+        padding: 8px 0;
+        justify-content: center;
+    }
+    footer .All-Rights-Reserved, footer .All-Rights-Reserved p {
+        padding: 1rem 0;
+        font-size:15px;
+        text-align: center;
     }
 }
 @media only screen and (min-width:600px) and (max-width:991px) {
@@ -661,6 +744,21 @@ header .menu{
     .FOOD-DELIVERY-ABOUT-US-DELIVER-AS-FAST input {
         width: 55%;
         padding: 1% 0 1% 2rem;
+    }
+    footer .container-box .box .content p {
+        font-size: 14px;
+        max-width: 250px;
+    }
+    footer .container-box .box .content-box h4 {
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+    }
+    footer .container-box .content-box ul li a, p {
+        font-size: 15px;
+    }
+    footer .All-Rights-Reserved, footer .All-Rights-Reserved p {
+        padding: 1rem 0;
+        font-size: 1.1rem;
     }
 }
 @media only screen and (max-width:1024px){
